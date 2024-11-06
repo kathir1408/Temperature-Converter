@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        .div1{
+            text-align:center;
+            background-color: aqua;
+            height: 200px;
+            padding: 30px;
+            display: inline-block;
+            margin-left: 40%;
+
+        }
+        #num{
+            height: 30px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="div1">
+    <input type="number"  id="num" >
+    <br>
+    <br>
+    <input type="radio" name="temp" id="celtofah" checked="false">
+    <label for="celtofah">Celsius to Fahrenheit</label><br>
+    <br>
+    <input type="radio" name="temp" id="fahtocel" checked="false">
+    <label for="fahtocel"> Fahrenheit to Celsius </label><br><br>
+    <button id="sub">Submit</button><br>
+    <p id="res">Enter a value</p>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
